@@ -452,9 +452,9 @@ async def help(ctx):
         embed.set_thumbnail(url=f'{guild.icon_url}')
         embed.set_author(name=f'{author}', icon_url=f'{author.avatar_url}')
         if customfooter == True:
-            embed.set_footer(text=f'{customfootvalue} | Made by {creator}', icon_url=f'{bot.user.avatar_url}')
+            embed.set_footer(text=f'{customfootvalue} | Made by Msv', icon_url=f'{bot.user.avatar_url}')
         else:
-            embed.set_footer(text=f'{bot.user.name} | Made by {creator}', icon_url=f'{bot.user.avatar_url}')
+            embed.set_footer(text=f'{bot.user.name} | Made by Msv', icon_url=f'{bot.user.avatar_url}')
         try:
             message2 = await ctx.send(embed=embed)
         except discord.HTTPException:
