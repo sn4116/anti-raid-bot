@@ -1,15 +1,15 @@
 #Config:#
-token = 'REPLACE_TOKEN'                
-CommandPrefix = 'REPLACE_PREFIX'    
+token = 'MTA0MjczOTgxNzczMTA4NDMyOA.G7qMH0.gVDubhqobwY_DjJk5-Lte58CnyOaZcQ2dGfVnc'                
+CommandPrefix = '!'    
 activitytype = 'Playing'                        #Accepted Values are Watching, Listening, Playing, or Streaming.
-botstatusmessage = 'REPLACE_STATUS_HERE'        
-developerid = 0000000000000000000               #Insert the userID here were the bot will send all error dms too. THE USER MUST BE IN THE SAME DISCORD SERVER THAT THE BOT IS IN!
-guildID = 0000000000000000000                   #Insert the guildID of the server that the bot will be running in here.
-StaffRoleID = 0000000000000000000               #Change this value to the role in the server that will give bot perms to the anti-raid commands
-SystemLogsChannelID = 0000000000000000000       #Change this value to where the bot will send all logs of commands too
+botstatusmessage = 'Protecting servers from raids and nukes'        
+developerid = 955666799721058364               #Insert the userID here were the bot will send all error dms too. THE USER MUST BE IN THE SAME DISCORD SERVER THAT THE BOT IS IN!
+guildID = 1037675342774677544                   #Insert the guildID of the server that the bot will be running in here.
+StaffRoleID = 1037676752446701668               #Change this value to the role in the server that will give bot perms to the anti-raid commands
+SystemLogsChannelID = 1037675343240237069       #Change this value to where the bot will send all logs of commands too
 
 #Embeds#
-embedcolor = 0x000000                           #Change this value to the color value of the hex code that you would like the embeds the bot sends to be (KEEP THE 0x!)
+embedcolor = 0xa2fbff                           #Change this value to the color value of the hex code that you would like the embeds the bot sends to be (KEEP THE 0x!)
 
 customfooter = False                            #Set this the True if you like to have a custom footer at embeds            
 customfootvalue = ''                            #Place the text of the custom footers
