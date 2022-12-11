@@ -1,15 +1,15 @@
 #Config:#
-token = 'REPLACE_TOKEN'                
-CommandPrefix = 'REPLACE_PREFIX'    
+token = 'MTA0MjczOTgxNzczMTA4NDMyOA.GL2eQN.E5jgw0OuABRyMQ18-1w0CUFVsj4Dkwhbd_8b48'                
+CommandPrefix = '!'    
 activitytype = 'Playing'                        #Accepted Values are Watching, Listening, Playing, or Streaming.
-botstatusmessage = 'REPLACE_STATUS_HERE'        
+botstatusmessage = 'Giving server owners and admins a break'        
 developerid = 0000000000000000000               #Insert the userID here were the bot will send all error dms too. THE USER MUST BE IN THE SAME DISCORD SERVER THAT THE BOT IS IN!
 guildID = 0000000000000000000                   #Insert the guildID of the server that the bot will be running in here.
 StaffRoleID = 0000000000000000000               #Change this value to the role in the server that will give bot perms to the anti-raid commands
 SystemLogsChannelID = 0000000000000000000       #Change this value to where the bot will send all logs of commands too
 
 #Embeds#
-embedcolor = 0x000000                           #Change this value to the color value of the hex code that you would like the embeds the bot sends to be (KEEP THE 0x!)
+embedcolor = 0xc9f8fa                           #Change this value to the color value of the hex code that you would like the embeds the bot sends to be (KEEP THE 0x!)
 
 customfooter = False                            #Set this the True if you like to have a custom footer at embeds            
 customfootvalue = ''                            #Place the text of the custom footers
